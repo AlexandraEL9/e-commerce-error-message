@@ -1,0 +1,18 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="./index.css">
+    </head>
+    <body>
+        <img src="./shoe.jpeg" alt="Nike shoe">
+        <p>Nike shoe</p>
+        <button onclick="purchase()">Purchase - $149</button>
+        <p id="error"></p>
+<script>
+let errorParagraph = document.getElementById("error");
+
+function purchase() {
+    errorParagraph.textContent = "Something went wrong, please try again"
+};
+ </script>
+    </body>
+</html>
